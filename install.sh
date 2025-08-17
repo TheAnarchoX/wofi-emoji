@@ -6,7 +6,7 @@ set -euo pipefail
 
 INSTALL_DIR="$HOME/.local/bin"
 SCRIPT_NAME="wofi-emoji"
-GITHUB_REPO="Zeioth/wofi-emoji"
+GITHUB_REPO="TheAnarchoX/wofi-emoji"
 # Dynamically determine the default branch of the repository
 DEFAULT_BRANCH=$(curl -fsSL "https://api.github.com/repos/${GITHUB_REPO}" | grep '"default_branch":' | cut -d '"' -f4)
 DOWNLOAD_URL="https://github.com/${GITHUB_REPO}/raw/${DEFAULT_BRANCH}/${SCRIPT_NAME}"

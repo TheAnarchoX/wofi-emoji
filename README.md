@@ -25,7 +25,7 @@ paru -S wofi-emoji
 ### Method 1: One-liner install script (Recommended)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Zeioth/wofi-emoji/master/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/TheAnarchoX/wofi-emoji/master/install.sh | bash
 ```
 
 This will:
@@ -38,7 +38,7 @@ This will:
 
 ```bash
 # Clone the repository
-git clone https://github.com/Zeioth/wofi-emoji.git
+git clone https://github.com/TheAnarchoX/wofi-emoji.git
 cd wofi-emoji
 
 # Install to ~/.local/bin
@@ -55,7 +55,7 @@ sudo make install-system PREFIX=/usr
 
 ```bash
 # Download the script
-curl -O https://raw.githubusercontent.com/Zeioth/wofi-emoji/master/wofi-emoji
+curl -O https://raw.githubusercontent.com/TheAnarchoX/wofi-emoji/master/wofi-emoji
 
 # Make it executable
 chmod +x wofi-emoji
@@ -122,7 +122,7 @@ sudo make uninstall-system
 If you want to build the emoji data yourself:
 
 ```bash
-git clone https://github.com/Zeioth/wofi-emoji.git
+git clone https://github.com/TheAnarchoX/wofi-emoji.git
 cd wofi-emoji
 make build  # or ./build.sh
 ```
@@ -133,6 +133,7 @@ This will fetch the latest emoji data and update the script.
 
 * Original author: [dln](https://github.com/dln)
 * Current maintainer: [Zeioth](https://github.com/Zeioth)
+* This fork: [TheAnarchoX](https://github.com/TheAnarchoX)
 
 ## 🌟 Support the project
 Star this repository and vote the [AUR package](https://aur.archlinux.org/packages/wofi-emoji) to increase the visibility of the project.
